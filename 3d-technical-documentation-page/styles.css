@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+#navbar {
+  width: 17rem;
+  height: 100vh;
+  padding-top: 1.5rem;
+  background-color: #e7e9eb;
+  /* border-right: 1px solid black; */
+  position: fixed;
+  top: 0;
+}
+
+#navbar header h2 {
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 0.5rem 1.5rem;
+}
+.nav-link:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* main */
+#main-doc {
+  margin: 4.5rem 3rem 0 20rem;
+}
+
+.main-section {
+  margin-bottom: 2rem;
+}
+
+.main-section header h2 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main-section p {
+  margin: 0 0 1rem 1rem;
+}
+
+.main-section ul li {
+  margin: 0 0 1rem 4rem;
+}
+
+#list2 {
+  margin-top: 1rem;
+}
+
+.main-section code {
+  display: block;
+  margin: 0 0 1rem 3.5rem;
+  background-color: #e7e9eb;
+  width: 80%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 720px) {
+  /* Navigation */
+  #navbar {
+    height: 50vh;
+    width: 100%;
+    position: static;
+  }
+
+  #navbar header {
+    border-bottom: 1px solid black;
+  }
+
+  #section-link {
+    overflow-y: scroll;
+    height: calc(50vh - 8px - 0.75rem - 2rem - 24px);
+    border-bottom: 1px solid black;
+  }
+
+  /* Main */
+  #main-doc {
+    margin: 2rem 2rem 0 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Navigation */
+  #navbar {
+    height: 50vh;
+    width: 100%;
+    position: static;
+  }
+
+  #navbar header {
+    border-bottom: 1px solid black;
+  }
+
+  #section-link {
+    overflow-y: scroll;
+    height: calc(50vh - 8px - 0.75rem - 2rem - 24px);
+    border-bottom: 1px solid black;
+  }
+
+  /* Main */
+  #main-doc {
+    margin: 2rem 2rem 0 2rem;
+  }
+}
+
+/* Vertical */
+@media screen and (max-height: 580px) {
+  #section-link {
+    overflow-y: scroll;
+    height: 480px;
+  }
+}
+@media screen and (max-height: 550px) {
+  #section-link {
+    overflow-y: scroll;
+    height: 450px;
+  }
+}
+@media screen and (max-height: 530px) {
+  #section-link {
+    overflow-y: scroll;
+    height: 430px;
+  }
+}
+@media screen and (max-height: 500px) {
+  #section-link {
+    overflow-y: scroll;
+    height: 400px;
+  }
+}
+@media screen and (max-height: 470px) {
+  #section-link {
+    overflow-y: scroll;
+    height: 370px;
+  }
+}
